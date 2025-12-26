@@ -172,4 +172,10 @@ header {
         height: auto;
     }
 }
+@media (max-width: 1200px) {
+    video {
+        width: 100%;
+        height: auto;
+    }
+}
 
