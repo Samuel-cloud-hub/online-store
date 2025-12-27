@@ -11,7 +11,7 @@
     <body>
 
         <header>
-            <div class="video-container" style="position: relative; object-fit: cover;">
+            <div class="video-container" style="position: relative; object-fit: cover; width: 100%; height: auto;">
                 <div class="navbar" style="position: absolute;">
                     <div search-container>
                         <form action="/search" method="get">
@@ -39,18 +39,18 @@
 
                 <main style="max-width: 1200px; margin: 0 auto; padding: 18px; position: absolute;">
                     <section class="hero-container">
-                        <div class="hero" style="gap: 50px; padding: 50px; color: #fff;">
+                        <div class="hero" style="color: #fff;">
                             <h1>YELLOWSTONE</h1>
                         </div>
-                        <div style="display: flex; gap: 5px;">
-                            <p>From</p>
-                                <p style="font-size: larger; font-family: sans-serif;">$339</p>
-                        </div>
-                            <button id="btn" class="button" onclick="myFunction()">Explore the Collection</button>
                     </section>
+                    <div style="display: flex; gap: 5px; color: #fff;">
+                            <p>From</p>
+                            <p style="font-size: larger; font-family: sans-serif;">$339</p>
+                        </div>
+                    <button id="btn" class="button" onclick="myFunction()">Explore the Collection</button>
                 </main>
-                <video autoplay auto plau muted loop style="max-width: 100%; height: auto; overflow: hidden;">
-                    <source src="images/0_Kitchen_Dining_Table_3840x2160.mp4" type="video/mp4">c
+                <video autoplay auto plau muted loop style="max-width: 100%; height: auto; overflow: hidden; top: 0; left: 0%;">
+                    <source src="images/0_Kitchen_Dining_Table_3840x2160.mp4" type="video/mp4">
                 </video>
             </div>
         </header>
